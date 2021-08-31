@@ -14,6 +14,7 @@ namespace Calc1._1
     {
         double numOne;
         double numTwo;
+        string oP;
         public Form1()
         {
             InitializeComponent();
@@ -43,6 +44,29 @@ namespace Calc1._1
             numOne = Convert.ToDouble(textBox1.Text);
             numTwo = 1 / numOne;
             textBox1.Text = Convert.ToString(numTwo);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            //divide
+            numOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            oP = "/";
         }
     }
 }
