@@ -68,5 +68,17 @@ namespace Calc1._1
             textBox1.Text = "0";
             oP = "/";
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "0" && textBox1.Text != null)
+            {
+                textBox1.Text = "7";
+            }
+            else
+            {
+                textBox1.Text += "7";
+            }
+        }
     }
 }
