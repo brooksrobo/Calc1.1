@@ -80,5 +80,29 @@ namespace Calc1._1
                 textBox1.Text += "7";
             }
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "0" && textBox1.Text != null)
+            {
+                textBox1.Text = "8";
+            }
+            else
+            {
+                textBox1.Text += "8";
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "0" && textBox1.Text != null)
+            {
+                textBox1.Text = "9";
+            }
+            else
+            {
+                textBox1.Text = "9";
+            }
+        }
     }
 }

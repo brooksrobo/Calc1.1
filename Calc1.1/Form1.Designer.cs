@@ -162,6 +162,7 @@ namespace Calc1._1
             this.button10.TabIndex = 10;
             this.button10.Text = "8";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -171,6 +172,7 @@ namespace Calc1._1
             this.button11.TabIndex = 11;
             this.button11.Text = "9";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
