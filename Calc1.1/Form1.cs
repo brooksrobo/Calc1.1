@@ -101,7 +101,7 @@ namespace Calc1._1
             }
             else
             {
-                textBox1.Text = "9";
+                textBox1.Text += "9";
             }
         }
 
