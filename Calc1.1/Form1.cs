@@ -104,5 +104,55 @@ namespace Calc1._1
                 textBox1.Text = "9";
             }
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            numOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            oP = "X";
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "0" && textBox1.Text != null)
+            {
+                textBox1.Text = "4";
+            }
+            else
+            {
+                textBox1.Text += "4";
+            }
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "0" && textBox1.Text != null)
+            {
+                textBox1.Text = "5";
+            }
+            else
+            {
+                textBox1.Text += "5";
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "0" && textBox1.Text != null)
+            {
+                textBox1.Text = "6";
+            }
+            else
+            {
+                textBox1.Text += "6";
+            }
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            numOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            oP = "+";
+        }
     }
 }
