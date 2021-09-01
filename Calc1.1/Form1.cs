@@ -225,7 +225,7 @@ namespace Calc1._1
             }
             else
             {
-                textBox1.Text = "0";
+                textBox1.Text = ".";
             }
         }
 
