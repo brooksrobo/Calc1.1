@@ -232,6 +232,7 @@ namespace Calc1._1
             this.button17.TabIndex = 17;
             this.button17.Text = "1";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -241,6 +242,7 @@ namespace Calc1._1
             this.button18.TabIndex = 18;
             this.button18.Text = "2";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -250,6 +252,7 @@ namespace Calc1._1
             this.button19.TabIndex = 19;
             this.button19.Text = "3";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -259,6 +262,7 @@ namespace Calc1._1
             this.button20.TabIndex = 20;
             this.button20.Text = "-";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
