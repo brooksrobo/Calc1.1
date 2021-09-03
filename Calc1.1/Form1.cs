@@ -36,7 +36,9 @@ namespace Calc1._1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            numOne = Convert.ToDouble(textBox1.Text);
+            textBox1.Text = "0";
+            oP = "^";
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -265,6 +267,12 @@ namespace Calc1._1
                     textBox1.Text = Convert.ToString(answer);
                     numOne = answer;
                 }
+            }
+            if(oP == "^")
+            {
+                answer = Math.Pow(numOne,numTwo);
+                textBox1.Text = Convert.ToString(answer);
+                numOne = answer;
             }
         }
     }
