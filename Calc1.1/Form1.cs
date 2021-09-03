@@ -232,6 +232,40 @@ namespace Calc1._1
         private void button24_Click(object sender, EventArgs e)
         {
             //equals
+            double answer;
+            numTwo = Convert.ToDouble(textBox1.Text);
+
+            if(oP == "+")
+            {
+                answer = (numOne + numTwo);
+                textBox1.Text = Convert.ToString(answer);
+                numOne = answer;
+            }
+            if(oP == "-")
+            {
+                answer = (numOne - numTwo);
+                textBox1.Text = Convert.ToString(answer);
+                numOne = answer;
+            }
+            if(oP == "X")
+            {
+                answer = (numOne * numTwo);
+                textBox1.Text = Convert.ToString(answer);
+                numOne = answer;
+            }
+            if(oP == "/")
+            {
+                if(numTwo == 0)
+                {
+                    textBox1.Text = "Unable to divide by zero";
+                }
+                else
+                {
+                    answer = (numOne / numTwo);
+                    textBox1.Text = Convert.ToString(answer);
+                    numOne = answer;
+                }
+            }
         }
     }
 }
